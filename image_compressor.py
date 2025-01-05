@@ -150,6 +150,6 @@ class ImageCompressor:
 if __name__ == "__main__":
     compressor = ImageCompressor("images/hubble.jpg")
     compressor.compress_image(20)
-    # compressor.compress_image(50)
-    # compressor.compress_image(100)
+    compressor.compress_image(50)
+    compressor.compress_image(100)
 
